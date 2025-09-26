@@ -9,7 +9,9 @@ Learning high-quality, robust, efficient, and disentangled representations is a 
 
 ### Setting up the conda environment
 Use the environment.yml file to create a conda environment by running the following command:
-conda env create -f environment.yml -n my-project-env
+
+`conda env create -f environment.yml -n my-project-env`
+
 Replace `my-project-env` with a name of your choice.
 
 ### Description of files
