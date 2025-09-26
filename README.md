@@ -7,19 +7,14 @@ Learning high-quality, robust, efficient, and disentangled representations is a 
 
 </details>
 
-### Set up the conda environment
+### Setting up the conda environment
 Use the environment.yml file to create a conda environment by running the following command:
 conda env create -f environment.yml -n my-project-env
 Replace `my-project-env` with a name of your choice.
 
 ### Description of files
 1.  All code is provided in python script as well as jupyter notebook format, in correspondingly named folders.
-2.  The source code consists of four training scripts and four main analysis scripts corresponding to the four models studied: CIFAR-10 MonoCon, CIFAR-100 MonoCon,     CIFAR-100 standard MLP head ablation study, and SNLI MonoCon. An additional script to analyze training dynamics of CIFAR-100 is also included.
+2.  The source code consists of four training scripts and four analysis scripts corresponding to the four models studied: CIFAR-10 MonoCon, CIFAR-100 MonoCon,     CIFAR-100 standard MLP head ablation study, and SNLI MonoCon. An additional script to analyze training dynamics of CIFAR-100 is also included.
 
 ### Note on file usage
 The training scripts save model checkpoints periodically, as well as the overall best performing model. The four main analysis scripts analyze the saved best       model, whereas the CIFAR-100 training dynamics script analyzes saved checkpoints. Please ensure that the checkpoint loop in the training dynamics analysis script is consistent with checkpoint saving frequency in the main CIFAR-100 training script.
- 
-# Citation:
-If you find this work useful in your research, please consider citing the following paper:
-Provide arXiv citation details
-   
